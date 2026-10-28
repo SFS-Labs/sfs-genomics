@@ -3,7 +3,7 @@
 
 **607,051 SNP calls · 256 persistent EU D1 partitions · OAuth-secured remote MCP · public scientific research federation · reproducible validation**
 
-**[Live mobile application](https://sfs-labs.github.io/lagoon/)** · **[Full engineering case study](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics)** · [Source & CI](https://github.com/SFS-Labs/sfs-genomics/actions) · [Scientific protocol](genomics/SCIENTIFIC_VALIDATION_PROTOCOL.md) · [Evidence ledger](genomics/PORTFOLIO.md)
+**[Live mobile application](https://sfs-labs.github.io/lagoon/)** · **[Full engineering case study](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics)** · [Browse source](genomics/) · [GitHub Actions](https://github.com/SFS-Labs/sfs-genomics/actions) · [Scientific protocol](genomics/SCIENTIFIC_VALIDATION_PROTOCOL.md) · [Evidence ledger](genomics/PORTFOLIO.md)
 
 [![Genomics research core CI](https://github.com/SFS-Labs/sfs-genomics/actions/workflows/genomics-ci.yml/badge.svg)](https://github.com/SFS-Labs/sfs-genomics/actions/workflows/genomics-ci.yml)
 
