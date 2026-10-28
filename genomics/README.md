@@ -51,7 +51,7 @@ iPhone SNP-array export
 
 ### Reproduce locally (synthetic only)
 
-From the repository feature branch, with Python 3.10+ and Node 22:
+From the root of the standalone `SFS-Labs/sfs-genomics` repository on `main`, with Python 3.10+ and Node 22:
 
 ```bash
 python -m unittest discover -s genomics/tests -v
@@ -69,7 +69,7 @@ The research and browser test suites require no private genome. Live-provider ch
 - **Cloudflare D1 Free row-read quotas** are enforced account-wide; the observed limit interrupted follow-up tool calls after import. The MCP now identifies quota exhaustion as temporary unavailability—not as an absent genotype.
 - **OAuth setup credentials must remain private.** OAuth access is subject to the application's own permissions; public discovery and server accessibility do not make genome records public.
 - **GitHub/GitBook are public surfaces.** Do not add raw genotype files, patient records, setup tokens or private tool results.
-- **Legacy names:** the Worker, database and Pages hostname retain `lagoon` for compatibility. This source branch is attached to an unrelated historical repository and is **not merged**. A dedicated `sfs-genomics` repository and coordinated issuer/domain migration remain open engineering-hygiene work.
+- **Deployment continuity:** the canonical source is now the separate public [`SFS-Labs/sfs-genomics` repository](https://github.com/SFS-Labs/sfs-genomics), with dedicated CI. The Worker, database and Pages hostname retain legacy `lagoon` identifiers for compatibility; changing these would be a separate runtime migration, not part of the code migration. The historical [Lagoon PR #1](https://github.com/SFS-Labs/lagoon/pull/1) remains the provenance record.
 
 ### Documentation and audit trail
 
