@@ -73,8 +73,8 @@ Synthetic fixtures require **no personal genomic data**. Some optional live-sour
 
 ## Independent repository and deployment continuity
 
-This source tree was migrated unchanged from the Genomics implementation in [SFS-Labs/lagoon PR #1](https://github.com/SFS-Labs/lagoon/pull/1), frozen at commit a794853c58f9c4efedf71c7d1856ddb764c35b27. The old Lagoon repository also hosts an unrelated historical application; this repository separates the Genomics project for technical and recruiting clarity.
+The Genomics implementation was transferred with identical source blobs from [SFS-Labs/lagoon PR #1](https://github.com/SFS-Labs/lagoon/pull/1), frozen at commit a794853c58f9c4efedf71c7d1856ddb764c35b27. The old Lagoon repository also hosts an unrelated historical application; this repository separates the Genomics project for technical and recruiting clarity.
 
-The live Pages address and Cloudflare Worker/D1/OAuth identities retain legacy names **for compatibility**. Source migration is not a new deployment: the running services and existing OAuth sessions are not moved or reconfigured.
+After initial hash-level verification, the Cloud MCP smoke-test workflow was renamed for standalone repository branding. The live Pages address and Cloudflare Worker/D1/OAuth identities retain legacy names **for compatibility**. Source migration is not a new deployment: the running services and existing OAuth sessions are not moved or reconfigured.
 
 [Full architecture, research methodology, verification and implementation history → GitBook](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics)
