@@ -2,7 +2,7 @@
 
 **AI-Native Genomic Intelligence Platform** · SFS Labs · 28 October 2026
 
-**[Human-readable technical case study](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics)** · [Mobile interface](https://sfs-labs.github.io/lagoon/) · [Research validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [CI](https://github.com/SFS-Labs/lagoon/actions/workflows/genomics-ci.yml)
+**[Human-readable technical case study](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics)** · [Mobile interface](https://sfs-labs.github.io/lagoon/) · [Research validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [CI](https://github.com/SFS-Labs/sfs-genomics/actions/workflows/genomics-ci.yml)
 
 ## Technical problem
 
@@ -34,7 +34,7 @@ Turn a large consumer SNP-array export into an interactive AI-accessible researc
 
 **Not verified:** all personal SNPs against orthogonal reference sequencing; full primary-study allele harmonization; ancestry-phased clinical polygenic scores; clinical penetrance calibration; multi-tenant operations. The seventh remote QC tool has been deployed and synthetically validated but post-quota private-data acceptance remains open.
 
-**Repository note:** implementation remains on an open feature branch of the unrelated older `SFS-Labs/lagoon` repository. The public product is **SFS Genomics**; a separate repository migration remains desirable to eliminate this portfolio-clarity defect. Technical Worker and Pages identifiers are retained for compatibility.
+**Repository note:** the canonical engineering implementation is now on [the standalone `SFS-Labs/sfs-genomics` main branch](https://github.com/SFS-Labs/sfs-genomics), migrated with all 52 source blobs hash-matched from the earlier [Lagoon PR #1](https://github.com/SFS-Labs/lagoon/pull/1). The existing Worker and Pages hostnames retain the `lagoon` identifier for runtime continuity; the code is no longer presented inside an unrelated source repository.
 
 ## Résumé-ready description
 
