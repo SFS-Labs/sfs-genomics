@@ -1,9 +1,9 @@
-name: Lagoon Cloud MCP public smoke
+name: SFS Genomics - Cloud MCP public smoke
 on:
   push:
     paths:
       - 'genomics/cloud/**'
-      - '.github/workflows/lagoon-cloud-smoke.yml'
+      - '.github/workflows/sfs-genomics-cloud-smoke.yml'
   workflow_dispatch:
 permissions:
   contents: read
