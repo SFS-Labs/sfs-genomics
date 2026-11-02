@@ -1,13 +1,5 @@
 name: Genomics research core tests
-on:
-  pull_request:
-    paths:
-      - 'genomics/**'
-      - '.github/workflows/genomics-ci.yml'
-  push:
-    paths:
-      - 'genomics/**'
-      - '.github/workflows/genomics-ci.yml'
+'on':
   workflow_dispatch:
 permissions:
   contents: read
