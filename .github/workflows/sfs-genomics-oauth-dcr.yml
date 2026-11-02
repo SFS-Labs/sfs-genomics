@@ -1,9 +1,5 @@
 name: SFS Genomics OAuth DCR interoperability
-on:
-  pull_request:
-    paths:
-      - 'genomics/cloud/**'
-      - '.github/workflows/sfs-genomics-oauth-dcr.yml'
+'on':
   workflow_dispatch:
 permissions:
   contents: read
