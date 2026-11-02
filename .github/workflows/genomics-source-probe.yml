@@ -1,11 +1,6 @@
 name: Genomic upstream API smoke (public rsID only)
-on:
+'on':
   workflow_dispatch:
-  push:
-    paths:
-      - 'genomics/research.py'
-      - 'genomics/discovery.py'
-      - '.github/workflows/genomics-source-probe.yml'
 permissions:
   contents: read
 jobs:
