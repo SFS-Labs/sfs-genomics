@@ -150,7 +150,7 @@ A **successful CI run does not imply that the Worker was freshly deployed from t
 
 ## Engineering status and next acceptance gates
 
-**Technical MVP delivered:** mobile ingestion, persistent D1, authenticated remote MCP lookup and selected external research queries have been observed in operation; source and synthetic tests are reproducible. This describes an integrated single-operator research platform, not a production multi-tenant clinical service.
+**Technical MVP delivered:** mobile ingestion, persistent D1, authenticated remote MCP lookup and selected external research queries have been observed in operation; source and synthetic tests are reproducible.
 
 **Still open:** seventh reference-validation tool's authenticated private post-quota acceptance, complete genotype-reference reconciliation, independent primary-study effect-allele harmonization, ancestry-aware LD/risk modeling, clinical calibration and reliable service capacity beyond the observed D1 free-tier quota.
 
@@ -162,6 +162,6 @@ This standalone public repository contains the Genomics implementation migrated 
 
 The existing [mobile Pages interface](https://sfs-labs.github.io/lagoon/) and Cloudflare Worker/D1/OAuth identifiers still contain `lagoon` for backwards compatibility. The repository migration deliberately did not change the running data plane, issuer or OAuth sessions.
 
-**Engineering contribution:** independently defined scope, architecture and acceptance criteria; AI-assisted implementation coordination; reproducibility, test verification, operational diagnosis and documentation. The presence of code does not imply all modules were written manually without AI assistance.
+**Engineering contribution:** independently defined scope, architecture and acceptance criteria; AI-assisted implementation coordination; reproducibility, test verification, operational diagnosis and documentation.
 
 **[Read the technical engineering case →](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md)** · [Repository migration ledger](docs/REPOSITORY_MIGRATION.md) · [Detailed project README](genomics/README.md)
