@@ -2,7 +2,7 @@
 
 **AI-Native Genomic Intelligence Platform** · SFS Labs · 28 October 2026
 
-**[Human-readable technical case study](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics)** · [Mobile interface](https://sfs-labs.github.io/lagoon/) · [Research validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [CI](https://github.com/SFS-Labs/sfs-genomics/actions/workflows/genomics-ci.yml)
+**[Human-readable technical case study](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics)** · [Mobile interface](https://sfs-labs.github.io/lagoon/) · [Research validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [CI](https://github.com/SFS-Labs/sfs-genomics/actions/workflows/genomics-ci.yml)
 
 ## Technical problem
 
@@ -41,4 +41,4 @@ Turn a large consumer SNP-array export into an interactive AI-accessible researc
 **SFS Genomics — AI-Native Genomic Intelligence Platform**
 Designed and implemented a mobile-first genomics research platform processing 607k accepted SNP calls into 256 persistent EU Cloudflare D1 partitions. Integrated OAuth PKCE/DCR-protected MCP tools with ChatGPT, federated public GWAS/Ensembl research and built Python/JavaScript regression and reference-validation gates that explicitly distinguish genomic associations from unverified clinical inference.
 
-**Evidence link:** https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics
+**Evidence link:** https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics

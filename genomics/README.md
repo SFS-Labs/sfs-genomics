@@ -3,7 +3,7 @@
 
 **Mobile genomic data engineering · OAuth-enabled MCP · cloud persistence · evidence-aware AI tooling**
 
-[Read the technical case study on GitBook](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics) · [Launch the mobile interface](https://sfs-labs.github.io/lagoon/) · [Validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [Cloud deployment status](cloud/DEPLOYMENT_STATUS.md) · [Portfolio evidence](PORTFOLIO.md)
+[Read the technical case study on GitBook](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics) · [Launch the mobile interface](https://sfs-labs.github.io/lagoon/) · [Validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [Cloud deployment status](cloud/DEPLOYMENT_STATUS.md) · [Portfolio evidence](PORTFOLIO.md)
 
 ### Why this project exists
 
@@ -73,6 +73,6 @@ The research and browser test suites require no private genome. Live-provider ch
 
 ### Documentation and audit trail
 
-The canonical human-readable engineering record is published on [SFS Labs Docs / AI Docs](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics) and includes nine linked chapters on architecture, ingestion, OAuth, scientific evidence, use cases, reproducibility, operations, and design decisions. The public documentation source is versioned in `SFS-Labs/ai-docs/docs/projects/sfs-genomics/` and Git Sync imports it to GitBook.
+The canonical human-readable engineering record is published on [SFS Labs Docs / AI Docs](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics) and includes nine linked chapters on architecture, ingestion, OAuth, scientific evidence, use cases, reproducibility, operations, and design decisions. The public documentation source is versioned in `SFS-Labs/ai-docs/docs/projects/sfs-genomics/` and Git Sync imports it to GitBook.
 
-[Read the complete technical documentation](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/featured-engineering-project-sfs-genomics/sfs-genomics).
+[Read the complete technical documentation](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics).
