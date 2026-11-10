@@ -1,3 +1,16 @@
+> **Recruiter evidence summary:** SFS Genomics — role-relevant work sample
+> 
+> Problem: iPhone-first intake of a large consumer SNP-array export; persistent authenticated access and scientifically bounded outputs.
+> - **Analysis:** Separated genotype calls, public GWAS associations, Ensembl LD and clinical endpoints; specified build, allele, strand, LD and abstention gates.
+> - **Decision:** Return explicit abstention where reference or study evidence is insufficient; do not infer clinical conclusions from association or storage success.
+> - **Implementation:** Mobile parser and staged upload, 256 EU Cloudflare D1 partitions, OAuth-protected remote MCP tools.
+> - **Verification:** 607,051 accepted calls reconciled across 256 partitions; authenticated client calls recorded; OAuth/PKCE/DCR and five-locus reference checks.
+> - **Boundary:** Bounded engineering MVP, not a clinical diagnostic; five-locus pilot only; full-array harmonization and clinical calibration remain unverified.
+> 
+> The remainder of this README and the linked artifacts provide the detailed technical record.
+
+---
+
 # SFS Genomics
 ## AI-Native Genomic Intelligence Platform
 
