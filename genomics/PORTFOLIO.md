@@ -2,7 +2,7 @@
 
 **AI-Native Genomic Intelligence Platform** · SFS Labs · 28 October 2026
 
-**[Human-readable technical case study](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics)** · [Mobile interface](https://sfs-labs.github.io/lagoon/) · [Research validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [CI](https://github.com/SFS-Labs/sfs-genomics/actions/workflows/genomics-ci.yml)
+**[Human-readable technical case study](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md)** · [Mobile interface](https://sfs-labs.github.io/lagoon/) · [Research validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [CI](https://github.com/SFS-Labs/sfs-genomics/actions/workflows/genomics-ci.yml)
 
 ## Technical problem
 
@@ -18,7 +18,7 @@ Turn a large consumer SNP-array export into an interactive AI-accessible researc
 | Scientific API federation | GWAS Catalog v2 study associations and Ensembl population LD | Observed public results carrying study IDs/PMIDs and reference r² |
 | Biomedical evidence engineering | GRCh37, allele-set, strand, study and endpoint abstention gates | Five pinned loci and Python/Node synthetic tests |
 | Reliability | Error taxonomy for D1 quota, explicit service state and testable incident resolution | Real quota error reproduced; 401 discovery/DCR CI regressions |
-| Product documentation | Nine linked public GitBook chapters and project overview | Git Sync source: `SFS-Labs/ai-docs/docs/projects/sfs-genomics/` |
+| Product documentation | Public repository engineering summary and source-linked project records | Git Sync source: `SFS-Labs/ai-docs/docs/projects/sfs-genomics/` |
 
 ## Demonstration narrative (recruiter / technical reviewer)
 
@@ -41,4 +41,4 @@ Turn a large consumer SNP-array export into an interactive AI-accessible researc
 **SFS Genomics — AI-Native Genomic Intelligence Platform**
 Designed and implemented a mobile-first genomics research platform processing 607k accepted SNP calls into 256 persistent EU Cloudflare D1 partitions. Integrated OAuth PKCE/DCR-protected MCP tools with ChatGPT, federated public GWAS/Ensembl research and built Python/JavaScript regression and reference-validation gates that explicitly distinguish genomic associations from unverified clinical inference.
 
-**Evidence link:** https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics
+**Evidence link:** https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md
