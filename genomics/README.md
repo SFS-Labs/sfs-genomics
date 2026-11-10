@@ -3,7 +3,7 @@
 
 **Mobile genomic data engineering · OAuth-enabled MCP · cloud persistence · evidence-aware AI tooling**
 
-[Read the technical case study on GitBook](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics) · [Launch the mobile interface](https://sfs-labs.github.io/lagoon/) · [Validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [Cloud deployment status](cloud/DEPLOYMENT_STATUS.md) · [Portfolio evidence](PORTFOLIO.md)
+[Read the technical case study](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md) · [Launch the mobile interface](https://sfs-labs.github.io/lagoon/) · [Validation protocol](SCIENTIFIC_VALIDATION_PROTOCOL.md) · [Cloud deployment status](cloud/DEPLOYMENT_STATUS.md) · [Portfolio evidence](PORTFOLIO.md)
 
 ### Why this project exists
 
@@ -68,11 +68,11 @@ The research and browser test suites require no private genome. Live-provider ch
 
 - **Cloudflare D1 Free row-read quotas** are enforced account-wide; the observed limit interrupted follow-up tool calls after import. The MCP now identifies quota exhaustion as temporary unavailability—not as an absent genotype.
 - **OAuth setup credentials must remain private.** OAuth access is subject to the application's own permissions; public discovery and server accessibility do not make genome records public.
-- **GitHub/GitBook are public surfaces.** Do not add raw genotype files, patient records, setup tokens or private tool results.
+- **Public repository and web pages are public surfaces.** Do not add raw genotype files, patient records, setup tokens or private tool results.
 - **Deployment continuity:** the canonical source is now the separate public [`SFS-Labs/sfs-genomics` repository](https://github.com/SFS-Labs/sfs-genomics), with dedicated CI. The Worker, database and Pages hostname retain legacy `lagoon` identifiers for compatibility; changing these would be a separate runtime migration, not part of the code migration. The historical [Lagoon PR #1](https://github.com/SFS-Labs/lagoon/pull/1) remains the provenance record.
 
 ### Documentation and audit trail
 
-The canonical human-readable engineering record is published on [SFS Labs Docs / AI Docs](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics) and includes nine linked chapters on architecture, ingestion, OAuth, scientific evidence, use cases, reproducibility, operations, and design decisions. The public documentation source is versioned in `SFS-Labs/ai-docs/docs/projects/sfs-genomics/` and Git Sync imports it to GitBook.
+Technical explanation and engineering evidence are accessible in [this repository](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md), with linked architecture, ingestion, OAuth, scientific validation, reproducibility, operations and design records. A separate internal documentation copy is maintained; it is not used as a public verification prerequisite.
 
-[Read the complete technical documentation](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics).
+[Read the complete technical documentation](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md).
