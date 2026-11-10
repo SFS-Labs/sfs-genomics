@@ -1,17 +1,5 @@
-> **Competency evidence — mobile data engineering, OAuth/MCP integration and bounded verification**
->
-> **Applied:** Designed an iPhone-first import, durable Cloudflare EU D1 storage, authenticated MCP access and controlled reference-validation gates.
->
-> **Observed:** 607,051 accepted SNP calls reconciled across 256 D1 partitions; recorded authenticated client use and OAuth/PKCE/DCR checks.
->
-> **Scope:** Five reference loci in the scientific-validation pilot; the engineering system is not a clinically validated diagnostic or personalized risk model.
->
-> [Engineering evidence](genomics/PORTFOLIO.md) · [Scientific validation protocol](genomics/SCIENTIFIC_VALIDATION_PROTOCOL.md) · [Source](genomics/)
-
----
-
 # SFS Genomics
-## AI-Native Genomic Intelligence Platform
+## Mobile Data Engineering and Authenticated Research Integration
 
 **607,051 SNP calls · 256 persistent EU D1 partitions · OAuth-secured remote MCP · public scientific research federation · reproducible validation**
 
