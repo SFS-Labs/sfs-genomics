@@ -73,6 +73,6 @@ The research and browser test suites require no private genome. Live-provider ch
 
 ### Documentation and audit trail
 
-Technical explanation and engineering evidence are accessible in [this repository](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md), with linked architecture, ingestion, OAuth, scientific validation, reproducibility, operations and design records. A separate internal documentation copy is maintained; it is not used as a public verification prerequisite.
+Technical explanation and engineering evidence are accessible in [this repository](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md), with linked architecture, ingestion, OAuth, scientific validation, reproducibility, operations and design records.
 
 [Read the complete technical documentation](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md).
