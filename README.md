@@ -3,7 +3,7 @@
 
 **607,051 SNP calls · 256 persistent EU D1 partitions · OAuth-secured remote MCP · public scientific research federation · reproducible validation**
 
-**[Live mobile application](https://sfs-labs.github.io/lagoon/)** · **[Full engineering case study](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics)** · [Browse source](genomics/) · [GitHub Actions](https://github.com/SFS-Labs/sfs-genomics/actions) · [Scientific protocol](genomics/SCIENTIFIC_VALIDATION_PROTOCOL.md) · [Evidence ledger](genomics/PORTFOLIO.md)
+**[Live mobile application](https://sfs-labs.github.io/lagoon/)** · **[Full engineering case study](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md)** · [Browse source](genomics/) · [GitHub Actions](https://github.com/SFS-Labs/sfs-genomics/actions) · [Scientific protocol](genomics/SCIENTIFIC_VALIDATION_PROTOCOL.md) · [Evidence ledger](genomics/PORTFOLIO.md)
 
 [![Genomics research core CI](https://github.com/SFS-Labs/sfs-genomics/actions/workflows/genomics-ci.yml/badge.svg)](https://github.com/SFS-Labs/sfs-genomics/actions/workflows/genomics-ci.yml)
 
@@ -164,4 +164,4 @@ The existing [mobile Pages interface](https://sfs-labs.github.io/lagoon/) and Cl
 
 **Engineering contribution:** independently defined scope, architecture and acceptance criteria; AI-assisted implementation coordination; reproducibility, test verification, operational diagnosis and documentation. The presence of code does not imply all modules were written manually without AI assistance.
 
-**[Read the complete GitBook engineering case study →](https://sfs-labs.gitbook.io/sfs-labs-docs/ai-docs/core-evidence-discover-translate-design-deliver-evaluate/sfs-genomics)** · [Repository migration ledger](docs/REPOSITORY_MIGRATION.md) · [Detailed project README](genomics/README.md)
+**[Read the technical engineering case →](https://github.com/SFS-Labs/sfs-genomics/blob/main/genomics/README.md)** · [Repository migration ledger](docs/REPOSITORY_MIGRATION.md) · [Detailed project README](genomics/README.md)
