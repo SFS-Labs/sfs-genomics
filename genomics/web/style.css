@@ -1,11 +1,11 @@
 
-:root{font-family:system-ui,-apple-system,sans-serif;color-scheme:light dark}
-*{box-sizing:border-box}body{max-width:850px;margin:auto;padding:16px 16px 80px;line-height:1.5}
+:root{font-family:system-ui,-apple-system,sans-serif;color-scheme:light}
+*{box-sizing:border-box}body{max-width:850px;margin:auto;padding:16px 16px 80px;line-height:1.5;background:#FFFFFF;color:#242629}
 h1{font-size:1.65rem;line-height:1.2}h2{font-size:1.12rem}
 main{display:grid;gap:16px}.panel{border:1px solid #9997;border-radius:13px;padding:16px}
 small,.sub{opacity:.78}label{display:block;margin:8px 0;font-weight:600}
 button,select,input[type=file]{font:inherit;max-width:100%}button,select{padding:10px 12px;border-radius:8px;border:1px solid #9997}
-button{cursor:pointer}button:disabled{opacity:.35}button.primary{background:#154d84;color:#fff;border-color:#154d84}
+button{cursor:pointer}button:disabled{opacity:.35}button.primary{background:#242629;color:#fff;border-color:#242629}
 .actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
 output{display:block;white-space:pre-wrap;overflow-wrap:anywhere}
 progress{width:100%;height:14px}ul{padding-left:20px}
@@ -13,9 +13,9 @@ table{width:100%;border-collapse:collapse;font-size:.89rem}
 th,td{padding:9px 5px;border-bottom:1px solid #8885;text-align:left;overflow-wrap:anywhere}
 table td:nth-child(1){font-family:ui-monospace,monospace}
 .scroller{overflow-x:auto}th{font-weight:700}
-.warn{border-left:4px solid #ba6b1d;padding-left:12px}
+.warn{border-left:4px solid #686B70;padding-left:12px}
 #notice{min-height:2em}a{color:inherit}
-@media(prefers-color-scheme:dark){button.primary{background:#307cc2}}
+@media(prefers-color-scheme:dark){button.primary{background:#333639}}
 
 /* iPhone layout: stacked findings instead of narrow five-column table */
 body{width:100%;overflow-x:hidden}
@@ -40,7 +40,7 @@ textarea{font:inherit;resize:vertical;border-radius:8px;padding:12px;border:1px 
 .qc-details dd{text-align:right;font-variant-numeric:tabular-nums}
 @media(min-width:720px){.marker-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
-.vault-panel{border-color:#387aa675}
+.vault-panel{border-color:#7B7F8466}
 .vault-panel output{padding:10px 0;font-weight:600}
 .vault-panel input[type=file]{display:block;width:100%;min-width:0}
 
@@ -54,20 +54,33 @@ textarea{font:inherit;resize:vertical;border-radius:8px;padding:12px;border:1px 
 #cloudProgress{width:100%}
 
 /* SFS Genomics identity — compact, technical, responsive portfolio presentation */
-.brand-header{padding:24px 2px 28px;border-bottom:1px solid #8897ad5c;margin-bottom:18px}
-.brand-header .eyebrow{font:700 .72rem ui-monospace,SFMono-Regular,monospace;letter-spacing:.13em;text-transform:uppercase;color:#31b3ce}
+.brand-header{padding:24px 2px 28px;border-bottom:1px solid #B8BABD66;margin-bottom:18px}
+.brand-header .eyebrow{font:700 .72rem ui-monospace,SFMono-Regular,monospace;letter-spacing:.13em;text-transform:uppercase;color:#4B4E52}
 .brand-header h1{font-size:clamp(2rem,7vw,3.4rem);letter-spacing:-.055em;line-height:1.05;margin:12px 0 10px;font-weight:760}
-.brand-accent{color:#33bdd2}
+.brand-accent{color:#242629}
 .brand-header .tagline{font-size:clamp(1.06rem,3.5vw,1.38rem);font-weight:640;margin:8px 0 15px}
 .brand-header .sub{max-width:700px;font-size:.98rem;opacity:.88;line-height:1.65}
 .brand-pills{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 16px}
-.brand-pills span{border:1px solid #3399b25c;border-radius:100px;padding:5px 11px;font-size:.78rem}
+.brand-pills span{border:1px solid #BEC0C366;border-radius:100px;padding:5px 11px;font-size:.78rem}
 .brand-links{display:flex;gap:20px;flex-wrap:wrap;margin:8px 0 15px}
 .brand-links a{font-size:.86rem;font-weight:600;color:inherit}
-.operator-console{border:1px solid #658c9d82;border-radius:14px;min-width:0;margin:2px 0 20px}
+.operator-console{border:1px solid #BEC0C382;border-radius:14px;min-width:0;margin:2px 0 20px}
 .operator-console>summary{cursor:pointer;padding:19px;font-size:1.01rem;font-weight:680}
 .operator-console>summary span{font-size:.75rem;font-weight:400;opacity:.8;display:block;margin-top:5px}
-.operator-console[open]>summary{border-bottom:1px solid #658c9d82}
+.operator-console[open]>summary{border-bottom:1px solid #BEC0C382}
 .operator-body{display:grid;gap:16px;padding:14px}
 .operator-body>.panel{min-width:0}
 @media(min-width:720px){.brand-header{padding-top:35px}.operator-body{padding:18px}}
+
+/* Brand presentation: monochrome SFS Labs identity. Functional UI unchanged. */
+.brand-mark{width:34px;height:34px;color:#242629;display:block;margin:0 0 12px}
+.brand-header{border-bottom-color:#DADBDD}
+.brand-header .eyebrow{color:#62666B}
+.brand-accent{color:#242629}
+.brand-pills span{border-color:#DADBDD;background:#F6F6F5}
+.operator-console{border-color:#DADBDD}
+.operator-console[open]>summary{border-bottom-color:#DADBDD}
+.vault-panel{border-color:#DADBDD}
+button.primary{background:#242629;border-color:#242629;color:#FFFFFF}
+button.primary:hover{background:#111315}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid #55595E;outline-offset:3px}

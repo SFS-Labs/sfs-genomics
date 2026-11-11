@@ -4,7 +4,7 @@
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#071526",
-  "theme_color": "#0e345e",
+  "background_color": "#FFFFFF",
+  "theme_color": "#242629",
   "description": "SFS Labs: modular genomic intelligence platform with AI-accessible MCP tools, population genetics and evidence-aware data infrastructure."
 }
