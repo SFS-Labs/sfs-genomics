@@ -1,4 +1,6 @@
 # SFS Genomics
+
+<img src="https://raw.githubusercontent.com/SFS-Labs/SFS-Labs/main/branding/sfs-lockup-light.svg" width="320" alt="SFS.Labs" />
 ## Mobile Data Engineering and Authenticated Research Integration
 
 **607,051 SNP calls · 256 persistent EU D1 partitions · OAuth-secured remote MCP · public scientific research federation · reproducible validation**
